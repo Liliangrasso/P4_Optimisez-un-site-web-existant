@@ -6,6 +6,12 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+main img{
+    max-width: 100%;
+}
+footer a{
+    color: #575757!important;
+}
 
 a,
 button {
@@ -100,7 +106,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #575757!important;
 }
 
 .d-bloc button:hover {
@@ -771,7 +777,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FFFFFF;
 }
 
 .tc-white {
@@ -857,6 +863,12 @@ h4 {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
+    }
+}
+@media (min-width: 1020px)
+and (-webkit-min-device-pixel-ratio: 1.5){
+    .text-center{
+        font-size: 17px;
     }
 }
 
