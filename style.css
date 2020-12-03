@@ -6,13 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-main img{
-    max-width: 100%;
-}
-footer span{
-    color: #F3976C!important;
-    font-size: 18px;
-}
 
 a,
 button {
@@ -107,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: #575757!important;
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -538,27 +531,24 @@ button {
 }
 
 a[data-lightbox] {
-    position: relative;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    font-size: 32px;
+    font-size: 35px;
     width: 50px;
-    height: 50px;
-    margin-left: -25px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+
 }
 
 a[data-lightbox]:hover img {
@@ -777,6 +767,10 @@ h4 {
     background-color: #364577;
 }
 
+.bgc-atomic-tangerine {
+    background-color: #F3976C;
+}
+
 .tc-white {
     color: #F3976C!important;
 }
@@ -860,12 +854,6 @@ h4 {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
-    }
-}
-@media (min-width: 1020px)
-and (-webkit-min-device-pixel-ratio: 1.5){
-    .text-center{
-        font-size: 17px;
     }
 }
 
