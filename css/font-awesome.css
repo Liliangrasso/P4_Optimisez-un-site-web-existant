@@ -18,7 +18,7 @@
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #F3976C!important;
+    color: rgba(231,110,60)!important;
 }
 
 .fa-lg {

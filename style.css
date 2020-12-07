@@ -613,7 +613,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.9;
 }
 
 .next-lightbox {
@@ -787,12 +787,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: rgba(231,110,60);
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: rgba(231,110,60,.7) !important;
     color: #FFFFFF!important;
 }
 
