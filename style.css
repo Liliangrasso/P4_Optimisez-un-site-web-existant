@@ -674,7 +674,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -704,6 +704,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    min-width: 80%;
 }
 
 h3 {
@@ -725,6 +726,12 @@ h1 {
 
 h4 {
     color: #333333!important;
+}
+
+.sousTitre{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .icons {
